@@ -1,0 +1,22 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "plugins": {
+    "XXZNZJ": {
+      "version": "1.0.1",
+      "provider": "wx70358fb44d63c53c"
+    }
+  },
+  "usingComponents": {
+    "index": "plugin://XXZNZJ/index1"
+  },
+  
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

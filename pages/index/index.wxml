@@ -1,0 +1,11 @@
+
+<index onloadOptions="{{onLoadOptions}}"  menuList="{{menuList}}" hostUserInfo="{{hostUserInfo}}" phoneNumber="{{phoneNumber}}">
+  <view slot='pageDesc'>极简考勤为中小型兴趣班提供简单易用的考勤管理。</view>
+  <view slot='getUserInfo'> 
+    <button size='mini' type='primary' open-type="getUserInfo"  bindgetuserinfo="onGetUserInfo">微信授权</button>
+  </view>
+  <view slot='getPhoneNumber'> 
+    <button size='mini' type='primary' open-type="getPhoneNumber" bindgetphonenumber="onGetPhoneNumber">点击获取</button>
+  </view>
+  <view slot='pageFooter'>极简考勤，Copyright©2019-2020 by 星希软件</view>
+</index> 
